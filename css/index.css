@@ -1,6 +1,7 @@
 header .top {
     margin: 0 auto; 
     width: 1200px;
+    padding: 0 0 26px;
 }
 
 header .top h1 {float: left; padding: 33px 0 0;}
@@ -17,3 +18,43 @@ header .sns {float: left; position: relative; padding: 27px 0 0 7px;}
 header .sns:before {content: ""; position: absolute; left: 0; top: 35px; width: 1px; height: 30px; background: #e3e3e3;}
 header .sns li {float: left; padding: 0 0 0 12px;}
 header .sns li img {width: 46px;}
+header .btm {border-top: 1px solid #ededed; border-bottom: 1px solid #ededed;}
+header .btm > div { margin: 0 auto; width: 1200px;}
+header .btm .lnb {float: left;}
+header .btm .lnb li {float: left;}
+header .btm .lnb a {display: block; line-height: 59px; padding: 0 40px; color: #333; font-size: 22px;}
+header .btm .spot {float: right; font-size: 0;}
+header .btm .spot * {vertical-align: middle;}
+header .btm .spot a {display: inline-block; position: relative; padding: 0 25px; line-height: 59px; font-size: 15px; color: #666;}
+header .btm .spot a ~ a::before { content: ""; position: absolute; left: 0; top: 50%; width: 1px; height: 10px; background: #e3e3e3; 
+transform: translateY(-50%);}
+header .btm .spot button {width: 59px; height: 59px; background: none; color: #0066b3; font-size: 26px;}
+.swiper-slide {margin: 0 auto; padding: 0 0; width: 1200px; overflow: hidden; }
+.thumbnail {max-width: 1200px; height: auto; }
+
+/* 콘텐츠 공통디자인 */
+.block > div {margin: 0 auto; padding: 100px 0 0; width: 1200px;}
+.block .tit {text-align: center;}
+.block .tit h2 {padding: 0 0 28px; font-size: 38px; color: #333; line-height: 1;}
+.block .tit p {padding: 0 0 40px; font-size: 21px; color: #666; line-height: 1;}
+
+/* 금융서비스 */
+.service .banner > div {width: 580px; color: #fff;}
+.service .banner .left {float: left; background: url(../images/ad2-2.jpg) no-repeat left top;}
+.service .banner .left > div {float: right; background: linear-gradient(to right, #3194d5, #4fb2f6);}
+.service .banner .right {float: right; background: url(../images/ad1-1.jpg) no-repeat right top;}
+.service .banner .right > div {background: linear-gradient(to right, #334da4, #3c62b3);}
+.service .banner div div {padding: 37px 0 0; width: 290px; height: 280px; box-sizing: border-box; text-align: center;}
+.service .banner h3 {font-size: 24px; line-height: 31px;}
+.service .banner p {padding: 12px 0 0 15px; font-size: 13px; line-height: 24px;}
+.service .banner a {display: block; margin: 0 auto; width: 140px; background: #064ca2; border-radius: 7px; line-height: 40px; color: #fff;}
+.service .btm > article {position: relative; width: 580px; margin: 38px 0 0;}
+.service .btm h3 {padding: 0 0 28px; font-size: 26px; color: #333;}
+.service .event {float: left;}
+.service .recom {float: right;}
+.service .event img {width: 100%;}
+
+.btn_more {position: absolute; right: 0; top: 0; width: 136px; line-height: 38px; border: 1px solid #cdcdcd; border-radius: 4px;
+font-size: 16px; color: #BaBaBa; text-align: center;}
+.btn_more::after {content:url(../images/sBtn_next.png); margin: 0 0 0 8px;}
+
